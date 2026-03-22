@@ -47,3 +47,6 @@ Se perder contexto durante trabalho:
 
 - Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
 - Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
+
+- Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
+- Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
