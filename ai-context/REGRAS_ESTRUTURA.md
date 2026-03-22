@@ -3,15 +3,12 @@
 ## Ordem de Leitura Base
 1. REGRAS_ESTRUTURA.md
 2. REGRAS_COMPORTAMENTO.md
-3. CONTEXTO.md
-4. MEMORIA.md
+3. CONTEXTO.md (raiz)
+4. MEMORIA.md (raiz)
 5. cerebro/bootstrap.json
-6. cerebro/estado.json
-7. cerebro/relacoes.json
-8. cerebro/dependencias.json
-9. biblia/
-10. roteiro/
-11. narrativa/
+6. biblia/
+7. roteiro/
+8. narrativa/
 
 ## Hierarquia
 - biblia/ → Verdades absolutas do mundo
