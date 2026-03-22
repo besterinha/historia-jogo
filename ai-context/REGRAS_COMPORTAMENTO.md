@@ -44,3 +44,6 @@ Verificar unicidade em manifest.json antes de criar.
 Se perder contexto durante trabalho:
 - Reler CONTEXTO.md e MEMORIA.md
 - Reler arquivo específico sendo trabalhado
+
+- Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
+- Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
