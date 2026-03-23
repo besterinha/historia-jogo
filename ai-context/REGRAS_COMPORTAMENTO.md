@@ -3,14 +3,17 @@
 ## 0. Ambiente de Trabalho
 Ao iniciar nova sessão:
 1. Navegar para pasta raiz: besterinha/historia-jogo
-2. Seguir ordem de leitura em REGRAS_ESTRUTURA.md
-3. Se não encontrar raiz, reportar erro e aguardar.
+2. Ler todos os arquivos em ai-context/
+3. Após ler ai-context/, seguir a ordem de leitura definida em REGRAS_ESTRUTURA.md
+4. Após carregar todos os arquivos, reportar: "Pronto. Aguardando instruções."
 
 ## 1. Atualização Atômica
 Após modificar qualquer arquivo de conteúdo:
 1. Atualizar o arquivo
 2. Atualizar cerebro/manifest.json
-3. Atualizar CONTEXTO.md com timestamp
+3. Atualizar cerebro/bootstrap.json
+4. Atualizar narrativa/INDICE.md (se aplicável)
+5. Atualizar CONTEXTO.md com timestamp
 
 ## 2. Cabeçalhos
 Todo arquivo em biblia/, roteiro/, narrativa/ deve ter cabeçalho:
@@ -28,7 +31,9 @@ Após cada ação que modifica o repositório:
 
 ## 4. Proteção
 - Não apagar pastas
-- Não modificar os arquivos dentro de ai-context/
+- Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
+- Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
+- Apenas arquivos em biblia/, roteiro/, narrativa/ podem ser apagados ou modificados livremente
 
 ## 5. Registro de Progresso
 Ao final da sessão, registrar em CONTEXTO.md:
@@ -44,9 +49,3 @@ Verificar unicidade em manifest.json antes de criar.
 Se perder contexto durante trabalho:
 - Reler CONTEXTO.md e MEMORIA.md
 - Reler arquivo específico sendo trabalhado
-
-- Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
-- Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
-
-- Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)
-- Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)
