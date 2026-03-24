@@ -1,0 +1,50 @@
+# Regras de Comportamento da IA
+
+regras:
+  atualizacao_atomica:
+    descricao: "Após modificar qualquer arquivo de conteúdo"
+    passos:
+      - "Atualizar o arquivo"
+      - "Atualizar cerebro/manifest.json"
+      - "Atualizar cerebro/bootstrap.json"
+      - "Atualizar CONTEXTO.md com timestamp"
+      - "Se arquivo em narrativa/, atualizar narrativa/INDICE.md"
+
+  cabecalhos:
+    descricao: "Todo arquivo em biblia/, roteiro/, narrativa/ deve ter cabeçalho"
+    formato: |
+      ---
+      id: "tipo_nome_contador"
+      tipo: "cena|dialogo|local|personagem|lore|arco|ramificacao"
+      status: "rascunho"
+      ---
+
+  ciclo_confirmacao:
+    descricao: "Após cada ação que modifica o repositório"
+    passos:
+      - "Executar ação"
+      - "Verificar conclusão"
+      - "Reportar: Ação concluída e verificada: [resumo]"
+
+  protecao:
+    - "Não apagar pastas"
+    - "Não apagar arquivos em cerebro/ (estado.json, dependencias.json, relacoes.json, busca.json, manifest.json, bootstrap.json, versoes.json)"
+    - "Não apagar arquivos em ai-context/ (CONTEXTO.md, MEMORIA.md)"
+    - "Apenas arquivos em biblia/, roteiro/, narrativa/ podem ser apagados ou modificados livremente"
+
+  registro_progresso:
+    descricao: "Ao final da sessão, registrar em CONTEXTO.md"
+    itens:
+      - "Resumo do que foi feito"
+      - "Arquivos criados/modificados"
+      - "Próxima tarefa"
+
+  validacao_ids:
+    padrao: "tipo_nome_contador (ex: cena_floresta_001)"
+    acao: "Verificar unicidade em manifest.json antes de criar"
+
+  recuperacao_contexto:
+    descricao: "Se perder contexto durante trabalho"
+    acoes:
+      - "Reler CONTEXTO.md e MEMORIA.md"
+      - "Reler arquivo específico sendo trabalhado"
