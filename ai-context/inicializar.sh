@@ -43,3 +43,6 @@ ls -la narrativa/
 
 echo ""
 echo "Pronto. Aguardando instruções."
+
+# Script de atualização atômica disponível em: ai-context/atualizar.sh
+# Execute após modificar arquivos em biblia/, roteiro/ ou narrativa/
