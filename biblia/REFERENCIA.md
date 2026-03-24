@@ -1,1 +1,0 @@
-# Referência: The Banner Saga
