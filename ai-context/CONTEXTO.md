@@ -1,7 +1,7 @@
 # Contexto
 
 ## Links Rápidos
-- Regras: ai-context/REGRAS_ESTRUTURA.md e REGRAS_COMPORTAMENTO.md
+- Regras: ai-context/REGRAS_ESTRUTURA.yaml e REGRAS_COMPORTAMENTO.yaml
 - Memória: ai-context/MEMORIA.md
 - Personagens: biblia/PERSONAGENS.md
 - Lore: biblia/LORE.md
