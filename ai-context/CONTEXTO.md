@@ -8,7 +8,7 @@
 - Arco principal: roteiro/ARCO_PRINCIPAL.md
 
 ## Estado Atual
-Nenhuma tarefa em andamento.
+Personagem Kael adicionado como personagem principal.
 
 ## Próxima Tarefa
 Aguardando instrução.
