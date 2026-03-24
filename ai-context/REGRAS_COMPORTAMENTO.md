@@ -4,7 +4,9 @@
 Ao iniciar nova sessão:
 1. Navegar para pasta raiz: besterinha/historia-jogo
 2. Ler todos os arquivos em ai-context/
-3. Imediatamente após, seguir a ordem de leitura definida em REGRAS_ESTRUTURA.md, sem aguardar nova instrução
+3. Imediatamente após, seguir a ordem de leitura definida em REGRAS_ESTRUTURA.md
+   - Ler **apenas os arquivos explicitamente listados** nos itens 1 a 19
+   - **Não ler** os arquivos listados como "Arquivos Excluídos da Leitura Automática"
 4. Após carregar todos os arquivos, reportar: "Pronto. Aguardando instruções."
 
 ## 1. Atualização Atômica
