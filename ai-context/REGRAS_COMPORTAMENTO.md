@@ -4,7 +4,7 @@
 Ao iniciar nova sessão:
 1. Navegar para pasta raiz: besterinha/historia-jogo
 2. Ler todos os arquivos em ai-context/
-3. Após ler ai-context/, seguir a ordem de leitura definida em REGRAS_ESTRUTURA.md
+3. Imediatamente após, seguir a ordem de leitura definida em REGRAS_ESTRUTURA.md, sem aguardar nova instrução
 4. Após carregar todos os arquivos, reportar: "Pronto. Aguardando instruções."
 
 ## 1. Atualização Atômica
@@ -12,14 +12,14 @@ Após modificar qualquer arquivo de conteúdo:
 1. Atualizar o arquivo
 2. Atualizar cerebro/manifest.json
 3. Atualizar cerebro/bootstrap.json
-4. Atualizar narrativa/INDICE.md (se aplicável)
-5. Atualizar CONTEXTO.md com timestamp
+4. Atualizar CONTEXTO.md com timestamp
+5. Se o arquivo modificado estiver em narrativa/, atualizar narrativa/INDICE.md
 
 ## 2. Cabeçalhos
 Todo arquivo em biblia/, roteiro/, narrativa/ deve ter cabeçalho:
 ---
 id: "tipo_nome_contador"
-tipo: "cena|dialogo|local|personagem|lore"
+tipo: "cena|dialogo|local|personagem|lore|arco|ramificacao"
 status: "rascunho"
 ---
 
