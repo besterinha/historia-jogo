@@ -1,0 +1,5 @@
+NAVEGAR besterinha/historia-jogo
+LER_PASTA ai-context/ INSTRUCOES.txt REGRAS_ESTRUTURA.yaml REGRAS_COMPORTAMENTO.yaml CONTEXTO.md MEMORIA.md
+EXECUTAR_SEQUENCIA REGRAS_ESTRUTURA.yaml ordem_leitura todos
+PARAR
+REPORTAR "Pronto. Aguardando instruções."
