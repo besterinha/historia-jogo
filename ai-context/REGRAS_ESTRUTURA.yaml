@@ -9,36 +9,6 @@ ordem_leitura:
     obrigatorio: true
   - arquivo: "MEMORIA.md"
     obrigatorio: true
-  - arquivo: "cerebro/bootstrap.json"
-    obrigatorio: true
-  - arquivo: "cerebro/estado.json"
-    obrigatorio: true
-  - arquivo: "cerebro/manifest.json"
-    obrigatorio: true
-  - arquivo: "cerebro/relacoes.json"
-    obrigatorio: true
-  - arquivo: "cerebro/dependencias.json"
-    obrigatorio: true
-  - arquivo: "cerebro/busca.json"
-    obrigatorio: true
-  - arquivo: "cerebro/versoes.json"
-    obrigatorio: true
-  - arquivo: "biblia/LORE.md"
-    obrigatorio: true
-  - arquivo: "biblia/PERSONAGENS.md"
-    obrigatorio: true
-  - arquivo: "biblia/TERMOS.md"
-    obrigatorio: true
-  - arquivo: "roteiro/ARCO_PRINCIPAL.md"
-    obrigatorio: true
-  - arquivo: "roteiro/RAMIFICACOES.md"
-    obrigatorio: true
-  - arquivo: "roteiro/FLUXOGRAMAS.md"
-    obrigatorio: true
-  - arquivo: "roteiro/MATRIZ_CONSEQUENCIAS.md"
-    obrigatorio: true
-  - arquivo: "roteiro/FINAIS.md"
-    obrigatorio: true
 
 arquivos_excluidos:
   - "biblia/REFERENCIA.md"
