@@ -48,3 +48,10 @@ regras:
     acoes:
       - "Reler CONTEXTO.md e MEMORIA.md"
       - "Reler arquivo específico sendo trabalhado"
+
+## 0. Ambiente de Trabalho
+Ao iniciar nova sessão:
+1. Identificar o diretório real do repositório (onde está a pasta ai-context/)
+2. Navegar para esse diretório usando cd
+3. Não trabalhar no workspace temporário padrão
+4. Executar o script inicializar.sh para carregar o sistema
