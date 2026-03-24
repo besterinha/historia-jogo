@@ -57,3 +57,10 @@ Ao iniciar nova sessão:
 4. Executar o script inicializar.sh para carregar o sistema
 
   - "Não apagar ou modificar arquivos em ai-context/ (REGRAS_ESTRUTURA.yaml, REGRAS_COMPORTAMENTO.yaml, CONTEXTO.md, MEMORIA.md)"
+
+  interpretacao_comandos:
+    descricao: "Diferenciar perguntas de comandos"
+    regras:
+      - "Se a mensagem terminar com '?', é uma pergunta. Responda apenas com texto, não execute ações."
+      - "Se a mensagem começar com um verbo de ação (crie, atualize, execute, faça, mostre, liste, adicione, registre), é um comando. Execute a ação."
+      - "Em caso de dúvida, responda com texto e pergunte se deseja executar a ação."
