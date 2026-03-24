@@ -55,3 +55,5 @@ Ao iniciar nova sessão:
 2. Navegar para esse diretório usando cd
 3. Não trabalhar no workspace temporário padrão
 4. Executar o script inicializar.sh para carregar o sistema
+
+  - "Não apagar ou modificar arquivos em ai-context/ (REGRAS_ESTRUTURA.yaml, REGRAS_COMPORTAMENTO.yaml, CONTEXTO.md, MEMORIA.md)"
