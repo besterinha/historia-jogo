@@ -32,3 +32,9 @@ fi
 
 echo ""
 echo "Ação concluída e verificada."
+
+# Push para o GitHub
+echo "Enviando para o GitHub..."
+git add .
+git commit -m "atualização automática: $(date)"
+git push origin main
